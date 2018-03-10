@@ -2,10 +2,10 @@
 
 This readme was used as a collaborative notebook between contributors:
 
-Tucker Allen
-Youn Hee Pernling Frodin
-David Hoffman
-Andrew Carl
+- Tucker Allen
+- Youn Hee Pernling Frodin
+- David Hoffman
+- Andrew Carl
 
 ---
 
