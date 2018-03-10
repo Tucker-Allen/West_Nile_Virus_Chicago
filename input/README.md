@@ -1,10 +1,19 @@
-### README
+# README
+
+This readme was used as a collaborative notebook between contributors:
+
+Tucker Allen
+Youn Hee Pernling Frodin
+David Hoffman
+Andrew Carl
 
 ---
 
+## Original_Data Download (Tucker)
+
 'mapdata_copyright_openstreetmap_contributors.txt' was not uploaded, because it is too large for GitHub (it's 40.9MB). You will have to download this from https://www.kaggle.com/c/predict-west-nile-virus/data if you need it (I think it is a different format of the same information contained in the .rds file of the same name)
 
-## INFO about about the data
+## Info about about the data (Youn Hee)
 Spray data - Years: 2011, 2013
 Weather data - Years: 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014
 Training data - Year: 2007, 2009, 2011, 2013
@@ -14,12 +23,12 @@ Test data - Year: 2008, 2010, 2012, 2014
 Since we only have spray data for the training years (odd years) and not the test years (even years) we have 
 decided that we are not going to use the spray data. 
 
-We choose to remove station 2 from the weather data.
+We chose to remove station 2 from the weather data.
 
 We also divided the weather data into 2 data frames, odd and even years. This is to make it easier to merge the weather data into the test and training data. 
 
 
-## Info about the cleaned CSV files
+## Info about the cleaned Weather/Spray output CSV files (Youn Hee)
 Weather 
 - Datetime format is not kept when you turn the data into a CSV and then read the CSV. So you need to do it again when you read in the CSV-file.
 - The column named Unnamed: 24 acually do not have a name, it was just empty in the CodeSum column when the dummies were greated.
@@ -28,6 +37,8 @@ Weather
 
 Spray 
 - Datetime format is not kept when you turn the data into a CSV and then read the CSV. So you need to do it again when you read in the CSV-file.
+
+## Info about the cleaned Train/Test output CSV files (Tucker)
 
 Train/Test
 - The following features have been dropped in X_train_clean.csv and X_test_clean.csv. Let me know if you'd like any of them reincorporated for any reason.
@@ -48,9 +59,6 @@ Train/Test
 
 ---
 
-`X_test_clean_v2` and `X_test_clean_v2` have additional features over `v1`, which include:
-	- One-hot encoded 'Trap' features
-
-## Logistic regression
+## Logistic regression model (David)
 The notebook named logreg_model is the logistic regression model document. (could be cleaned and commented more)
 The sub1.csv is the submission document that was submitted to kaggel.
