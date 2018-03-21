@@ -20,12 +20,14 @@ Note text.
 'mapdata_copyright_openstreetmap_contributors.txt' was not uploaded, because it is too large for GitHub (it's 40.9MB). You will have to download this from https://www.kaggle.com/c/predict-west-nile-virus/data if you need it (I think it is a different format of the same information contained in the .rds file of the same name)
 
 ## Info about about the data (Youn Hee)
+
 Spray data - Years: 2011, 2013
 Weather data - Years: 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014
 Training data - Year: 2007, 2009, 2011, 2013
 Test data - Year: 2008, 2010, 2012, 2014
 
 ## What data to use (Youn Hee)
+
 Since we only have spray data for the training years (odd years) and not the test years (even years) we have 
 decided that we are not going to use the spray data. 
 
@@ -35,6 +37,7 @@ We also divided the weather data into 2 data frames, odd and even years. This is
 
 
 ## Info about the cleaned Weather/Spray output CSV files (Youn Hee)
+
 Weather 
 - Datetime format is not kept when you turn the data into a CSV and then read the CSV. So you need to do it again when you read in the CSV-file.
 - The column named Unnamed: 24 acually do not have a name, it was just empty in the CodeSum column when the dummies were greated.
@@ -63,8 +66,8 @@ Train/Test
 	- Day_y: Duplicate information from X_train/X_test
 	- Unnamed: 24: Erroneous information
 
----
 
 ## Logistic regression model (David)
+
 The notebook named logreg_model is the logistic regression model document. (could be cleaned and commented more)
 The sub1.csv is the submission document that was submitted to kaggel.
