@@ -2,10 +2,16 @@
 
 This readme was used as a collaborative notebook between contributors:
 
-- Tucker Allen
-- Youn Hee Pernling Frodin
-- David Hoffman
-- Andrew Carl
+- Tucker Allen (https://github.com/Tucker-Allen)
+- Youn Hee Pernling Frodin (https://github.com/yhpf)
+- David Hoffman (https://github.com/davehoff)
+- Andrew Carl (https://github.com/Andrew-Carl)
+
+Format:
+
+## Note title (Contributor)
+
+Note text.
 
 ---
 
@@ -19,7 +25,7 @@ Weather data - Years: 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014
 Training data - Year: 2007, 2009, 2011, 2013
 Test data - Year: 2008, 2010, 2012, 2014
 
-## What data to use (...work in progress)
+## What data to use (Youn Hee)
 Since we only have spray data for the training years (odd years) and not the test years (even years) we have 
 decided that we are not going to use the spray data. 
 
